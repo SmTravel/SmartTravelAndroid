@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Smart Travel Application</string>
+    <string name="splashlogo">Splash Screen Logo</string>
 </resources>
