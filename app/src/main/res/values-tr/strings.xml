@@ -2,5 +2,25 @@
 <resources>
     <string name="app_name">Smart Travel Uygulaması</string>
     <string name="splashlogo">Giriş Ekranı Logo</string>
-    <string name="smart_travel">Smart Travel Guide</string>
+    <string name="smart_travelHeader">SMART TRAVEL</string>
+    <string name="smart_travelFooter">USE IT EVERYWHERE BE HAPPY</string>
+    <string name="splashImageDescription">Just A Image</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="mail_smtravel_com">mail@smtravel.com</string>
+    <string name="email">EMail</string>
+    <string name="password_hint">************************</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="username">Username</string>
+    <string name="john_doe">John Doe</string>
+    <string name="phone">PHONE</string>
+    <string name="sign_phone">9876543210</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_increate">Sign In!</string>
 </resources>

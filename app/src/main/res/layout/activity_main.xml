@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splashbackground">
-
-    <ImageView
-        android:id="@+id/splashLogo"
-        android:layout_width="264dp"
-        android:layout_height="293dp"
-        android:layout_marginTop="214dp"
-        android:layout_marginBottom="14dp"
-        android:contentDescription="@string/splashlogo"
-        android:src="@drawable/splashlogo"
-        app:layout_constraintBottom_toTopOf="@+id/splashText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:gravity="center">
 
     <TextView
-        android:id="@+id/splashText"
+        android:id="@+id/splashTextHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="205dp"
-        android:fontFamily="@font/yantramanav_medium"
-        android:text="@string/smart_travel"
-        android:textColor="#D7FDCF"
-        android:textSize="35sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/splashLogo" />
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="@string/smart_travelHeader"
+        android:textColor="#FACA3D"
+        android:textSize="52sp"
+        android:textStyle="normal" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="476dp"
+        android:contentDescription="@string/splashImageDescription"
+        android:src="@drawable/splashtravel"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <TextView
+        android:id="@+id/splashTextFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="@string/smart_travelFooter"
+        android:textColor="#FACA3D"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

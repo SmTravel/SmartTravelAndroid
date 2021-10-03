@@ -2,6 +2,8 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/allerta</item>
+        <item>@font/bangers</item>
+        <item>@font/luckiest_guy</item>
         <item>@font/yantramanav_medium</item>
     </array>
 </resources>
