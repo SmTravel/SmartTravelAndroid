@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Smart Travel Uygulaması</string>
     <string name="splashlogo">Giriş Ekranı Logo</string>
+    <string name="smart_travel">Smart Travel Guide</string>
 </resources>
