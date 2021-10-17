@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Smart Travel Uygulaması</string>
+    <string name="app_name">Smart Travel Application</string>
     <string name="splashlogo">Giriş Ekranı Logo</string>
     <string name="smart_travelHeader">SMART TRAVEL</string>
     <string name="smart_travelFooter">USE IT EVERYWHERE BE HAPPY</string>
