@@ -125,6 +125,7 @@
                     app:tint="@color/colorPrimary" />
 
                 <EditText
+                    android:id="@+id/signUpEmail"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@null"
@@ -241,6 +242,7 @@
                     app:tint="@color/colorPrimary" />
 
                 <EditText
+                    android:id="@+id/signUpPassword"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@null"
@@ -333,6 +335,7 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <Button
+            android:id="@+id/signUpCreateAccount"
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginStart="30dp"

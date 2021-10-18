@@ -79,6 +79,7 @@
                         app:tint="@color/colorPrimary" />
                     
                     <EditText
+                        android:id="@+id/signInEmail"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@null"
@@ -137,6 +138,7 @@
                         app:tint="@color/colorPrimary" />
 
                     <EditText
+                        android:id="@+id/signInPassword"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@null"
@@ -182,6 +184,7 @@
                 android:textSize="16sp"/>
             
             <Button
+                android:id="@+id/loginSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
                 android:layout_marginStart="30dp"

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F5F5"
@@ -8,35 +7,12 @@
     android:padding="18dp"
     android:gravity="center">
 
-    <TextView
-        android:id="@+id/splashTextHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:fontFamily="@font/luckiest_guy"
-        android:text="@string/smart_travelHeader"
-        android:textColor="#FACA3D"
-        android:textSize="52sp"
-        android:textStyle="normal" />
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="476dp"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
         android:contentDescription="@string/splashImageDescription"
-        android:src="@drawable/splashtravel"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="206dp" />
-
-    <TextView
-        android:id="@+id/splashTextFooter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:text="@string/smart_travelFooter"
-        android:textColor="#FACA3D"
-        android:textSize="22sp"
-        android:textStyle="bold" />
+        android:src="@drawable/splashtravel"/>
 
 
 </LinearLayout>
