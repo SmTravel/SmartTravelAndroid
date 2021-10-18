@@ -14,10 +14,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.smtravel.android.R;
 import com.smtravel.android.databinding.ActivitySignupBinding;
-
-import java.util.Objects;
 
 public class SignUpActivity extends AppCompatActivity {
     private FirebaseAuth auth;
@@ -41,7 +38,7 @@ public class SignUpActivity extends AppCompatActivity {
                     if(task.isSuccessful()){
                         Log.d("SignUp","createUserWithEmail:Success");
                         FirebaseUser user = auth.getCurrentUser();
-                        startActivity(new Intent(SignUpActivity.this,MainscreenActivity.class));
+                        startActivity(new Intent(SignUpActivity.this, TravelActivity.class));
                         finish();
                     }else{
                         Log.w("SignUp","createUserWithEmail:failure", task.getException());

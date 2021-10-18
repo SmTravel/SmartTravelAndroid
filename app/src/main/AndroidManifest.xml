@@ -3,6 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.smtravel.android">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartTravelApplication"
-        android:fullBackupContent="true">
+        android:fullBackupContent="true"
+        android:usesCleartextTraffic="true">
 
         <activity
             android:name=".view.MainActivity"
@@ -24,7 +27,7 @@
 
         <activity android:name=".view.LoginActivity"/>
         <activity android:name=".view.SignUpActivity"/>
-        <activity android:name=".view.MainscreenActivity"/>
+        <activity android:name=".view.TravelActivity"/>
 
     </application>
 
