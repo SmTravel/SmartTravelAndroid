@@ -4,23 +4,26 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="50dp"
-        android:background="@color/colorPrimary">
+        android:layout_height="225dp"
+        android:padding="30dp"
+        android:gravity="end"
+        android:background="@drawable/traveltitlebackground">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
             android:text="Malatya"
             android:textSize="50sp"
             android:textStyle="bold" />
-    </RelativeLayout>
+    </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
+        android:layout_marginTop="15dp"
         >
 
         <ImageView
@@ -87,9 +90,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="105dp"
             android:layout_marginTop="20dp"
-            android:text="Restaurant"
-            android:textSize="18dp"
+            android:text="Hotel"
             android:textColor="#d703082b"
+            android:textSize="18dp"
             android:textStyle="bold" />
 
         <TextView
@@ -133,9 +136,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="105dp"
             android:layout_marginTop="20dp"
-            android:text="Restaurant"
-            android:textSize="18dp"
+            android:text="Shopping Center"
             android:textColor="#d703082b"
+            android:textSize="18dp"
             android:textStyle="bold" />
         <TextView
             android:layout_width="wrap_content"
@@ -178,7 +181,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="105dp"
             android:layout_marginTop="20dp"
-            android:text="Restaurant"
+            android:text="Historic Area"
             android:textSize="18dp"
             android:textColor="#d703082b"
             android:textStyle="bold" />
