@@ -8,6 +8,7 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.smtravel.android.MapsActivity;
 import com.smtravel.android.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         final Handler handler = new Handler(Looper.getMainLooper());
         handler.postDelayed(() -> {
-            Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(intent);
         }, 5000);
 

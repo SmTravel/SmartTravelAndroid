@@ -22,4 +22,6 @@
     <string name="confirm_password">Confirm Password</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="sign_increate">Sign In!</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="uydu">uydu</string>
 </resources>
