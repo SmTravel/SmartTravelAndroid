@@ -23,6 +23,9 @@ public class TravelActivity extends AppCompatActivity {
     public void Maps(View view) {
         Intent intent= new Intent(TravelActivity.this, MapsActivity.class);
         startActivity(intent);
+    }
 
+    public void goCities(View view){
+        startActivity(new Intent(this,CitiesActivity.class));
     }
 }

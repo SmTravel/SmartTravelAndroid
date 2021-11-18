@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height= "match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:background="@drawable/city_left_stroke">
+            <TextView
+                android:id="@+id/cityNameText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/sehir_ad"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/cityRegionText"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/cityRegionText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Sehir Bolgesi"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cityNameText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textSize="12sp"/>
+            <View
+                android:id="@+id/emptyRow"
+                android:layout_width="0.6dp"
+                android:layout_height="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="1dp"
+                app:layout_constraintStart_toEndOf="@id/cityRegionText"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cityNameText"
+                android:background="@drawable/empty_row"/>
+
+            <TextView
+                android:id="@+id/cityPopulationText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Sehir Popülasyonu"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toEndOf="@id/emptyRow"
+                app:layout_constraintTop_toBottomOf="@id/cityNameText"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/cityIDText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Plaka Kodu"
+                android:textAlignment="textEnd"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/cityPopulationText" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
